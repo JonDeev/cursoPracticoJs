@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CursoPracticoJsFiguras</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras Geometricas
+        </h1>
+
+        <p>Este es una calaculadora geometrica de la figuras cuadrado, triangulo y circulo</p>
+    </header>
+
+    <section>
+        <h2>
+            calcula el area y perimetro de un cudrado 
+        </h2>
+        <form>
+            <label for="inputCuadrado">
+                Escribe cada lado de tu cadrado
+            </label>
+            <input id="inputCuadrado" type="number">
+            <button type="button" onclick="calculateSquarePerimeter()">
+                Calcular el perimetro
+            </button>
+
+            <button type="button" onclick="calculateSquareArea()">
+                Calcular el area
+            </button>
+        </form>
+    </section>
+    
+
+    <script src="./funcionesFiguras.js"></script>
+</body>
+</html>
